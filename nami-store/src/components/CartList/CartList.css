@@ -1,0 +1,18 @@
+.cartContainerGeneral {
+    background-color: antiquewhite;
+}
+
+.descriptionProducts {
+    background-color: beige;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.boton {
+    background-color: rgb(207, 102, 102);
+    border-radius: 4em;
+
+}
+
+.totalPrice {
+    font-family: 'PT Sans Narrow', sans-serif;
+}

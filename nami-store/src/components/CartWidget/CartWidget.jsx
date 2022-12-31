@@ -1,8 +1,14 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai'
+import { useCartContext } from '../../context/CartContext'
 import './CartWidget.css'
-const CartWidget = () => {
+export const CartWidget = () => {
+
+  const { totalQuantity } = useCartContext()
+
   return (
-    <div>
+
+    <div className="carrito">
+      {totalQuantity() !== 0 && totalQuantity()}
       <AiOutlineShoppingCart />
     </div>
   )
@@ -10,3 +16,4 @@ const CartWidget = () => {
 }
 
 export default CartWidget
+

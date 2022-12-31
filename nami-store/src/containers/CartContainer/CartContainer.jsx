@@ -1,12 +1,9 @@
-
+import CartList from '../../components/CartList/CartList';
 
 const CartContainer = () => {
-  return (
-    <div>
-estas en carrito
-    </div>
-  )
-}
+
+  return <CartList />;
+};
 
 export default CartContainer
 

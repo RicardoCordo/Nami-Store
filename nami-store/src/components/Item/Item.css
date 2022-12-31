@@ -1,0 +1,9 @@
+.itemButton {
+    background-color: antiquewhite;
+    border-radius: 4rem;
+    color: rgb(77, 77, 77);
+}
+
+.productPrice {
+    color: rgb(46, 45, 45);
+}

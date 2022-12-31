@@ -1,0 +1,14 @@
+.DetailContainer {
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 60%;
+    background-color: rgba(77, 77, 77, 0.671);
+    flex-direction: column;
+    border: none;
+    color: white;
+}
